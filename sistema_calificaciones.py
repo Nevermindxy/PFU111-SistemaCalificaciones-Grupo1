@@ -37,7 +37,7 @@ while ejecutando:
             else:
                 print("ERROR: La calificación debe estar entre 0 y 100. Ingrese nuevamente el dato.")
         except ValueError:
-            print("ERROR: Entrada no válida. Debe ingresar un número entero o decimal.")
+            print(">>> [DEPURACIÓN/FIX]: Se detectó texto o carácter no numérico. Intente nuevamente con un número válido.")
 
     # 4 Validación de Calificacion 3
     mientras_nota3 = True
